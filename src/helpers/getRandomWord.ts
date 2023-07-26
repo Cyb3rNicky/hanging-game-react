@@ -4,16 +4,16 @@ type WordAndClue = {
   }
   
   let wordsAndClues: WordAndClue[] = [
-    { word: 'COMPUTADORA', clue: 'Es un dispositivo con el cual se creo este juego :)' },
+    { word: 'COMPUTADORA', clue: 'Sin corazón ni sentimientos, pero con información y conocimientos' },
     { word: 'AGUACATE', clue: 'Agua pasa por mi casa cate de mi corazon' },
     { word: 'TELEFONO', clue: 'Ring Ring contesta' },
-    { word: 'MANZANA', clue: 'Blanca Nieves se la comio' },
-    { word: 'PERA', clue: 'Espera?' },
-    { word: 'GATO', clue: 'No se si decirte miau miau jeje' },
-    { word: 'TRECE', clue: 'Sabes de que pelicula es Jason?' },
-    { word: 'AMOR', clue: 'El sentimiento universal que todo ser humano tiene quiza...' },
-    { word: 'LOBO', clue: 'No sera shakira pero si que hace auuuuuu' },
-    { word: 'PROGRAMACION', clue: 'Si sabes como se hizo este juego no?' }
+    { word: 'MANZANA', clue: 'Roja o amarilla, jugosa y dulce, alimento que siempre seduce' },
+    { word: 'PERA', clue: 'Espera...' },
+    { word: 'GATO', clue: 'Tiene bigotes y ronronea, caza ratones y se asea' },
+    { word: 'TRECE', clue: 'En la suerte y el azar, mi número es un desafío, con una pata alzada, voy de equilibrio en el río' },
+    { word: 'AMOR', clue: 'El sentimiento universal que todo ser humano tiene quizá...' },
+    { word: 'LOBO', clue: 'Ando de noche y aúllo a la luna, cazador feroz de la noche oscura' },
+    { word: 'PROGRAMACION', clue: 'Soy como un lenguaje mágico, ordeno a las máquinas hacer trucos fantásticos' }
   ]
   
   export function getRandomIndex(){

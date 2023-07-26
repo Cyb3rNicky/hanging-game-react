@@ -89,7 +89,10 @@ function App() {
       {/* Mensaje si Perdio */}
       {
         (lose)
-          ? <h2>Has Perdido {wordAndClue.word}</h2>
+          ? <>
+              <h2>Has Perdido!</h2>
+              <h2>La palabra era {wordAndClue.word}</h2>
+            </>
           : ''
       }
 
